@@ -81,6 +81,59 @@ This project simulates a real-world data engineering and analytics task. You act
 
 ## 📂 Project Structure
 
+omega-fintech-review-analytics-Week-2/
+│
+├── Scripts/
+│ ├── task1_scraper.py
+│ ├── task1_cleaner.py
+│ └── task2_sentiment_thematic.py
+│
+├── notebooks/
+│ ├── task1_scraping_cleaning.ipynb
+│ ├── task2_analysis.ipynb
+│ └── data/
+│ ├── raw/reviews_raw.csv
+│ └── processed/reviews_clean.csv
+│
+├── reports/
+│ ├── Interim_Report.pdf
+│ └── Final_Report.pdf
+│
+├── README.md
+└── requirements.txt
 
+
+---
+
+## 🛠 How to Run the Project
+
+1️⃣ **Setup virtual environment**
+
+```bash
+python -m venv .venv
+# Activate
+# Mac/Linux
+source .venv/bin/activate
+# Windows
+.\.venv\Scripts\activate
+
+
+2️⃣ Install dependencies
+
+pip install -r requirements.txt
+
+
+3️⃣ Run Task 1 scripts
+
+python Scripts/task1_scraper.py
+python Scripts/task1_cleaner.py
+
+
+4️⃣ Run Task 2 analysis
+
+python Scripts/task2_sentiment_thematic.py
+
+
+Or use the Jupyter notebooks in /notebooks.
 
 
